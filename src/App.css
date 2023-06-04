@@ -1,6 +1,9 @@
+
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,99 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../public/images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.main{
+  align-items: center;
+  justify-content: center;
+}
+
+
+.text {
+  color: white;
+  font-family: 'Dongle', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.subtitle{
+  font-size: 2rem;
+}
+
+.title, .subtitle, .legend {
+  margin: 6px;
+}
+
+.title{
+  font-size: 3rem;
+}
+
+.btn {
+  width: 180px;
+  height: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn2 {
+  width: 180px;
+  height: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn {
+  background-color: transparent;
+  border: 3px solid #00d7c3;
+  border-radius: 50px;
+  -webkit-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+  color: #00d7c3;
+  font-size: 1.5rem;
+}
+.btn:hover {
+  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 3px solid #00d7c3;
+}
+
+
+.video-banner{
+  width: 100%;
+  height: 100vh;
+}
+
+
+.container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.player {
+  width: 100% !important;
+  height: 100% !important;
+  margin-bottom: 0 !important; 
 }
