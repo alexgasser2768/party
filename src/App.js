@@ -53,7 +53,7 @@ function App() {
 
       </div>
       <div className='video-banner'>
-        <ReactPlayer id="see" className="player" url='https://www.youtube.com/watch?v=jrjS-WgHmEQ' />      </div>
+        <ReactPlayer id="see" className="player" url='https://www.youtube.com/watch?v=0nu92gUSj_s' />      </div>
     </div>
   );
 }
